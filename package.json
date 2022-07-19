@@ -1,17 +1,17 @@
 {
     "name": "Aoi.js-bot",
     "version": "1.0.01",
-    "description": "A sample Aoi.js bot",
+    "description": "idk just a bot",
     "main": "index.js",
     "scripts": {
       "start": "node index.js"
     },
     "engines": {
-      "node": "12.x"
+      "node": "17.x"
     },
-    "author": "Ayush4385",
-    "license": "ISC",
+    "author": "thedanikreal",
+    "license": "Mozilla",
     "dependencies": {
-      "aoi.js": "^1.0.6"
+      "aoi.js": "^5.5.0"
     }
   }
