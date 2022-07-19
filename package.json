@@ -1,0 +1,17 @@
+{
+    "name": "Aoi.js-bot",
+    "version": "1.0.01",
+    "description": "A sample Aoi.js bot",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": "12.x"
+    },
+    "author": "Ayush4385",
+    "license": "ISC",
+    "dependencies": {
+      "Aoi.js": "^1.0.6"
+    }
+  }
