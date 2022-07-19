@@ -12,6 +12,6 @@
     "author": "Ayush4385",
     "license": "ISC",
     "dependencies": {
-      "Aoi.js": "^1.0.6"
+      "aoi.js": "^1.0.6"
     }
   }
