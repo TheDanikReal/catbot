@@ -1,17 +1,57 @@
 {
-    "name": "Aoi.js-bot",
-    "version": "1.0.01",
-    "description": "idk just a bot",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "engines": {
-      "node": "17.x"
-    },
-    "author": "thedanikreal",
-    "license": "Mozilla",
-    "dependencies": {
-      "aoi.js": "^5.5.0"
-    }
-  }
+  "name": "aoijsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aoi.js": "^5.5.0",
+    "asynckit": "^0.4.0",
+    "axios": "^0.24.0",
+    "combined-stream": "^1.0.8",
+    "dbdjs.db": "^2.0.2",
+    "delayed-stream": "^1.0.0",
+    "discord-api-types": "^0.36.2",
+    "discord.js": "^14.0.2",
+    "fast-deep-equal": "^3.1.3",
+    "file-type": "^17.1.2",
+    "follow-redirects": "^1.15.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "ieee754": "^1.2.1",
+    "inherits": "^2.0.4",
+    "lodash.snakecase": "^4.1.1",
+    "lodash.uniqwith": "^4.5.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^2.6.7",
+    "peek-readable": "^5.0.0-alpha.5",
+    "readable-stream": "^3.6.0",
+    "readable-web-to-node-stream": "^3.0.2",
+    "safe-buffer": "^5.2.1",
+    "string_decoder": "^1.3.0",
+    "strtok3": "^7.0.0-alpha.8",
+    "token-types": "^5.0.0-alpha.2",
+    "tr46": "^0.0.3",
+    "ts-mixer": "^6.0.1",
+    "tslib": "^2.4.0",
+    "undici": "^5.8.0",
+    "util-deprecate": "^1.0.2",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDanikReal/aoijsbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDanikReal/aoijsbot/issues"
+  },
+  "homepage": "https://github.com/TheDanikReal/aoijsbot#readme"
+}
