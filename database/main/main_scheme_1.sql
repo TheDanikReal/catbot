@@ -1,1 +1,1 @@
-{"updates":{"key":"updates","value":"Теперь команда c?help работает так, как надо"}}
+{"updates":{"key":"updates","value":"Скоро (можно быть) добавлю языки"}}
