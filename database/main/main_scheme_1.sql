@@ -1,1 +1,1 @@
-{"updates":{"key":"updates","value":"Скоро (можно быть) добавлю языки"}}
+{"updates":{"key":"updates","value":"Приветики)"}}

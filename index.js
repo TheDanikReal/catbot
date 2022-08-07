@@ -6,6 +6,7 @@ prefix: "c?",
 intents: ["GUILDS", "GUILD_MESSAGES"],
 mobile: true
 })
+
 bot.onMessage();
 bot.command({
 name: "ping",
@@ -23,10 +24,12 @@ bot.variables({
 updates: "Обновлений пока нету!"
 })
 
+
 //Replit thing so you can upload it to uptimerobot and get 24/7 (almost) uptime //
 const express = require("express");
 const path = require("path");
 const app = express();
+
 
 console.log("-------- Website --------");
 app.get("/", (req, res) => {

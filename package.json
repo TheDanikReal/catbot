@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@akarui/aoi.music": "^1.2.6",
     "aoi.js": "^5.5.0",
     "asynckit": "^0.4.0",
     "axios": "^0.24.0",
