@@ -9,7 +9,7 @@ intents: ["GUILDS", "GUILD_MESSAGES"],
 mobile: true
 })
 
-const voice = new Voice(
+const voice = new aoijs.Voice(
   bot,
   {
     cache: {
