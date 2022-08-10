@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@akarui/aoi.music": "^1.2.6",
+    "@akarui/aoi.panel": "^0.0.1",
     "aoi.js": "^5.5.0",
     "asynckit": "^0.4.0",
     "axios": "^0.24.0",
@@ -13,7 +14,9 @@
     "delayed-stream": "^1.0.0",
     "discord-api-types": "^0.36.2",
     "discord.js": "^14.0.2",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-session": "^1.17.3",
     "fast-deep-equal": "^3.1.3",
     "file-type": "^17.1.3",
     "follow-redirects": "^1.15.1",
