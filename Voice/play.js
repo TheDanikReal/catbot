@@ -2,9 +2,9 @@ module.exports = {
 
 
   name: "play",
-  $if: "v4", //enabling pseudo $if
+  $if: "v4",
   code: `
-    $sendmessage[сделал]
+    $sendmessage[Успешно зашёл в голосовой канал и начал воспроизведение]
     $playTrack[youtube;$message]
 
 
