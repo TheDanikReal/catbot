@@ -5,7 +5,7 @@ const {Panel} = require("@akarui/aoi.panel")
 const bot = new aoijs.Bot({
 token: process.env['token'],
 prefix: "c?",
-intents: ["GUILDS", "GUILD_MESSAGES"],
+intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"],
 mobile: true
 })
 
