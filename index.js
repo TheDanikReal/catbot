@@ -45,7 +45,8 @@ loader.load(bot.cmd,"./Commands/")
 loader.load(voice.cmd, "./Voice/"); //voice cmds
 
 bot.variables({
-updates: "Обновлений пока нету!"
+updates: "Обновлений пока нету!",
+enabledwelcomer: false,
 })
 
 //console.log("-------- Website --------");
