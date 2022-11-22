@@ -1,4 +1,4 @@
 module.exports = ({
   name: "eval",
-  code: `$addcmdreactions[✅] $eval[$message;no] $onlyif[$authorid==802951312873750578]`
+  code: `$onlyif[$authorid==802951312873750578] $eval[$message;no] $addcmdreactions[✅]`
 })
