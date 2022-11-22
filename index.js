@@ -26,16 +26,20 @@ const voice = new aoijs.Voice(
 
 voice.onTrackStart();
 
+bot.onJoin();
 bot.onMessage();
+
 bot.command({
 name: "ping",
 code: `Pong! $pingms`
 });
+
 bot.status ({
- text: "Brawl Stars | c?help",
+ text: "c?help",
  type: "PLAYING",
  time: 10
 })
+
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./Commands/")
 loader.load(voice.cmd, "./Voice/"); //voice cmds
@@ -44,19 +48,16 @@ bot.variables({
 updates: "Обновлений пока нету!"
 })
 
-//Replit thing so you can upload it to uptimerobot and get 24/7 (almost) uptime //
+//console.log("-------- Website --------");
+//const panel = new Panel({
+//    username: "TDR",//username for logging in
+//    password: process.env['pass'],//password for logging in
+//    secret: "aoijs",//session secret, i'll edit it later, because now its not safe
+//    port: 3000,//port on which website is hosted, Not required! Default 3000
+//    bot: bot,//your aoi.js client
+//    mainFile: "index.js",//Main file where code is running.Not required, default taken from package.json
+//    commands: "./Commands/"// folder name in which all the edit needing files are there.
+//})
+//panel.loadPanel()//Load The Panel
 
-
-console.log("-------- Website --------");
-const panel = new Panel({
-    username: "TDR",//username for logging in
-    password: process.env['pass'],//password for logging in
-    secret: "aoijs",//session secret
-    port: 3000,//port on which website is hosted, Not required! Default 3000
-    bot: bot,//your aoi.js client
-    mainFile: "index.js",//Main file where code is running.Not required, default taken from package.json
-    commands: "./Commands/"// folder name in which all the edit needing files are there.
-})
-panel.loadPanel()//Load The Panel
-
-panel.onError()
+//panel.onError()
