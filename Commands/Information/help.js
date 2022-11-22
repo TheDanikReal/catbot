@@ -4,5 +4,5 @@ module.exports = ({
 c?help — Открывает это меню помощи.
 c?updates — Показывает информацию о последнем обновлении.
 c?cat — Отображает случайного котика (=^･ｪ･^=)
-c?dog — Shows random dog image] $color[#00FF00] ]`
+c?dog — Shows random dog image] $color[#00FF00]]`
 })
