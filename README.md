@@ -1,1 +1,1 @@
-# Yes, another cat purposed mini discord bot :)
+# Yes, another bot :)
