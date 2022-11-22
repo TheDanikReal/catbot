@@ -26,16 +26,20 @@ const voice = new aoijs.Voice(
 
 voice.onTrackStart();
 
+bot.onJoin();
 bot.onMessage();
+
 bot.command({
 name: "ping",
 code: `Pong! $pingms`
 });
+
 bot.status ({
  text: "c?help",
  type: "PLAYING",
  time: 10
 })
+
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./Commands/")
 loader.load(voice.cmd, "./Voice/"); //voice cmds
@@ -43,8 +47,6 @@ loader.load(voice.cmd, "./Voice/"); //voice cmds
 bot.variables({
 updates: "Обновлений пока нету!"
 })
-
-
 
 //console.log("-------- Website --------");
 //const panel = new Panel({
