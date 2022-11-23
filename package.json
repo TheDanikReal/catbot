@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@akarui/aoi.music": "^1.2.6",
-    "@akarui/aoi.panel": "^0.0.1",
+    "@akarui/aoi.panel": "^0.0.3",
     "aoi.js": "^6.0.0",
     "asynckit": "^0.4.0",
     "axios": "^0.24.0",
