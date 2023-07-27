@@ -13,23 +13,29 @@ const bot = new AoiClient({
         path: "./database/"
     }
 });
-/*
 
-waiting for update of library 
-*/
+bot.variables({
+  updates: "Currently none!",
+  owner: 802951312873750578
+});
+
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./Commands/");
 
 
 
 const panel = new Panel({
-  username:["TDR"],
-  password:process.env['pass'],
+  username:["tdr"],
+  password: process.env['pass'],
   secret: require('crypto').randomBytes(16).toString("hex"),
   commands: "./Commands/",
-  port:3000,
-  bot: bot
+  bot: bot,
+  mainFile: "index.js",
+  port: 3000
 })
+
+panel.loadPanel();
+
 /*
 panel.loadAPI({
   auth: require('crypto').randomBytes(16).toString("hex")

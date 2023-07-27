@@ -1,1 +1,1 @@
-{"updates":{"key":"updates","value":"Приветики)"}}
+{"updates":{"value":"Suggest me which features i should add on our GitHub!","type":"string","key":"updates","ttl":0}}
