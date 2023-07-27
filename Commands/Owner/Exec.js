@@ -1,7 +1,8 @@
 module.exports = ({
   name: "exec",
-  code: `$onlyif[$authorid==$getvar[owner]; You're not owner!]
+  code: `
 $exec[$message]
 $log[Command $message is executing!] 
-$addcmdreactions[✅]  `
+$addcmdreactions[✅]
+$onlyif[$authorid==$getvar[owner]; You're not owner!]`
 })
