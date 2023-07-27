@@ -22,10 +22,8 @@ bot.variables({
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./Commands/");
 
-
-
 const panel = new Panel({
-  username:["tdr"],
+  username:["catbot_admin"],
   password: process.env['pass'],
   secret: require('crypto').randomBytes(16).toString("hex"),
   commands: "./Commands/",
